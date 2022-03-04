@@ -6,20 +6,20 @@
 }
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 html{
     font-size: 62.5%;
     font-family: 'Nunito', sans-serif;
 }
 body{
+    width: auto;
     background-color: var(--azul-obscuro);
-    padding: 0; 
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
@@ -30,8 +30,8 @@ header .logo_marco{
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
     color:var(--verde);
-    position: relative;
-    left: -40px;
+    
+    left: 30px;
 }
 header .about-me{
     background-color: var(--verde-rgba);
@@ -42,7 +42,6 @@ header .about-me{
     align-items: center;
     flex-direction: column;
     position: relative;
-    right:-80px;
     width: 50px;
     height: 50px;
 }
@@ -52,6 +51,7 @@ header .about-me .menu{
     width: 20px;
 }
 .container_designer{
+    width: 100%;
     margin-top: 100px;
 }
 .titulo_designer{
@@ -62,22 +62,22 @@ header .about-me .menu{
     color: var(--verde);
     width: auto;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 60px;
+    font-size: 50px;
 }
 #greting{
     width: 100%;
-    margin-left: 40px ;
+    margin-left: 30px ;
 }
 #my_name{
     width: 100%;
-    margin-left: 40px ;
+    margin-left: 30px ;
 }
 #my_profile{
     display: flex;
     justify-content: flex-end;
     width: 100%;
     color: var(--verde);
-    margin-left:-38px;
+    margin-left:-55px;
     padding: 0px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 2rem;
@@ -111,7 +111,7 @@ header .about-me .menu{
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin: 40px 0px;
+    margin: 30px 0px;
 }
 .conector .conector_proyectos{
     display: flex;
@@ -135,7 +135,7 @@ header .about-me .menu{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .container{
     width: 280px;
@@ -151,14 +151,16 @@ header .about-me .menu{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
     background: #678983;
     width: 100%;
     height: 400px;
 }
+.contacto{
+    margin-bottom: 60px;
+    font-size: 3rem;
+}
 aside{
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
 }
 .container__network{
     display: flex;
@@ -166,30 +168,36 @@ aside{
     align-items: center;
     width: 100%;
     height: auto;
+    margin-bottom: 40px;
 }
-.twitter{
+.twitter img{
     width: 60px;
     height: 60px;
-    background: white;
-    border-radius: 50%;
 }
-.Instagram{
+.Instagram img{
+    width: 50px;
+    height: 50px;
+}
+.github img{
     width: 60px;
     height: 60px;
-    background: white;
-    border-radius: 50%;
 }
-form{
+.linkedin img{
+    width: 50px;
+    height: 48px;
+}
+.footer__End{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
 }
-input {
-    width: 200px;
-    height: 40px;
+.footer__End .pie{
+    font-size: 1.5rem;
 }
-.message{
-    width: 200px;
-    height: 100px;
+.footer__End #rights{
+    font-size: 1.5rem;
 }
