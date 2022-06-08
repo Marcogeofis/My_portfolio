@@ -1,0 +1,152 @@
+:root{
+    --azul-obscuro: #141E27;
+    --verde: #43c432;
+    --gradiente-verde: linear-gradient(to bottom right, #43c432, rgb(240, 248, 255, 0.2));
+    --verde-rgba:rgba(67, 196, 50, 0.4);
+}
+header .container-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+header .container-menu .logo_marco{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+header .container-menu .Idiome{
+    position: absolute;
+    top:40px;
+    right: 80px;
+}
+.container_designer{
+    position: relative;
+    left: 450px;
+}
+#greting{
+    position: relative;
+    left:-180px;
+    font-size: 90px;
+}
+#my_name{
+    position: relative;
+    left:-80px;
+    font-size: 90px;
+}
+#my_profile{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: var(--verde);
+    margin-left:100px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+}
+.section_1{
+    padding-top: 30px;
+    height: 270px;
+}
+.section_1 .container_biography .biography p{
+    font-size: 1.9rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    padding:0px 100px;
+}
+
+.container-proyects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.container-proyects .container-pro{
+    width: 90%;
+}
+.img_proyects{
+    width: 350px;
+    height: 280px;
+}
+
+/* biography */
+.Biography h2{
+    font-size: 60px;
+}
+.Biography .container-Biography{
+    display: block;
+    width: 95%;
+    height: 1300px;
+    border-radius: 15px;
+}
+.Biography .container-Biography .container-photo img{
+    position: relative;
+    top: 200px;
+    left:70px;
+    width: 260px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 30px 1px rgba(0, 0, 0, 0.5);
+}
+.Biography .container-Biography .container-Biography--preferences{
+    position: relative;
+    top: 300px;
+    left:-450px;
+}
+.Biography .container-Biography .container-Biography--preferences p{
+    margin:10px;
+}
+.Biography .container-Biography .container-history{
+    position: relative;
+    top:-610px;
+    left: 410px;
+    width: 800px;
+    padding-right: 20px;
+    padding-left: 70px;
+    border-left: 2px solid var(--verde);
+   
+}
+.Biography .container-Biography .container-history .history-subtitle{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+.Biography .container-Biography .container-history .history-subtitle--conclusiones{
+    font-size: 1.9rem;
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+.container-languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-languages .languages{
+    width: 95%;
+    height: 400px;
+    background: var(--gradiente-verde);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+}
+.container-languages .languages img{
+    width: 200px;
+    height: 200px;
+}
+.container-languages .languages .container-python img{
+    width: 180px;
+    height: 180px;
+}
+.container-languages .languages .container-python span{
+    font-size: 1.7rem;
+    color: white;
+}
+.container-cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+}

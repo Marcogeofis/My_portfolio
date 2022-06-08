@@ -7,13 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./public/CSS/style.css">	
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Josefin+Slab:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet">
-	<title>Portafolio</title>
+	<link rel="stylesheet" href="./public/CSS/tablet/tablet.css" media="(min-width: 930px)">
+	<title>Portfolio</title>
 </head>
 <body>
 	<header>
 		<nav class="container-menu">
 			<img class="logo_marco" src="./imagenes/logo/logoMarc.svg" alt="logo de mi nombre">
-			<a href="./public/bigraphy.html" target="_blank" class="link-bio">Biography</a>
+			<a href="./public/biography.html" class="link-bio">Biography</a>
+			<div class="Idiome">
+				<button>Idioma Español</button>
+			</div>
 		</nav>
 	</header>	
 	<section class="container_designer">
@@ -29,44 +33,58 @@
 				<p>I'm a developer Front-end and I like to design & build user interfaces. It's fantastic how everything has changed the way to share the information, even selling a service or a product. I love to create an API or Apps to all peaple that want to do proyects giving solution a problem</p> 
 				 
 				<p>I developed some personal proyects, where I apply the tools of web developer. I like the challenge that puts me to aprove all exprience that I got with simple and straightforward code without let the best practice</p>
-
-				 <!-- <p>Soy desarrollador front-end y me gusta diseñar y construir interfaces para usuarios. Es sorprendente como ha cambiado la forma de compartir información, vender ya sea un servicio o un producto, Me encanta crear una API o una APP movil para todo público que quiere hacer proyectos que aporten una solución a un problema </p>
-
-				 <p>He realizado algunos proyectos personales, donde implemento las herramientas para el desarrollo web, me gustan los retos donde me ponen aprueba todo lo que he adquirido con un código simple y sencillo con las mejores prácticas.</p> -->
-
 			</div>
 		</div>
 	</section>
 	<section class="conector">
 		<div class="conector_proyectos">
-			<span class="title-pro1"> Proyects </span>
+			<span class="title-pro1"> Projects </span>
 		</div>
 		<div class="container-proyects">
-			<div class="container pro1">
+			<div class="container-pro">
 				<a href="https://marcogeofis.github.io/PSG_women-s_cards-/" target="_blank">
 					<figcaption>
 						<img class="img_proyects" src="./imagenes/proyecto_PSG/TeamPSGW.png" alt="link página PSGW">
 					</figcaption>		
 				</a>
+				<div class="description">
+					<h3>Introduction</h3>
+					<p>
+						In this project I wanted to do some soccer players cards of the team Saint Germmain Paris but when I looked at the official page, I noticed that the men players all have records that explain the minutes that they play, if they have records goals etc. I did the same thing with PSG’s women players, they don’t have any record, so this is not just for the women's team. For that reason I prefer to do this page for them and when I find information about them I will write it.
+					</p>
+				</div>
 			</div>
-			<div class="container pro2">
+			<div class="container-pro">
 				<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
 					<figcaption>
 						<img class="img_proyects" src="./imagenes/pelicostos/pelivsstreaming.png" alt="link peliculasVSstreaming">
 					</figcaption>		
 				</a>
+				<div class="description">
+					<h3>Introduction</h3>
+					<p>
+						This application was my first app. In my Javascript’s course the teacher left a challenge that consists of what is cheaper to pay for a cinema or streaming platform.				
+					</p>
+				</div>
 			</div>
-			<div class="container pro3">
+			<div class="container-pro">
 				<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
 					<figcaption>
-						<img class="img_proyects" src="./imagenes/glucometro/glucomatro.png" alt="link de la página glucometro">
+						<img class="img_proyects" src="./imagenes/glucometro/glucometro.png" alt="link de la página glucometro">
 					</figcaption>		
 				</a>
+				<div class="description">
+					<h3>Introduction</h3>
+					<p>
+						This app consists that you can record glucose’s measure, blood pressure. Why did I decide to do this app? Because my mother is diabetic and she recorded those measures in a book and she wants to know when she eats something with a little candy, if it grows up more than the limit or is well. So this app shows a graphic that my mother looks at when she eats correctly or she has a bad diet. 
+					</p>
+					<p>Note: I’m working with the back-end to this app so it doesn't work if you try to fill the field. But you can visit it.</p>
+				</div>
 			</div>
 		</div>
 	</section>
 	<footer class="footer">
-		<h4 class="contacto">Contacta me</h4>
+		<h4 class="contacto">Contact me</h4>
 		<aside>
 			<div class="container__network">
 				<figcaption class="twitter">
@@ -96,11 +114,12 @@
 			</div>
 		</aside>
 		<div class="footer__End">
-			<span class="pie">Hecho con amor💓</span>
+			<span class="pie">Done with love 💓</span>
 			<span id="rights">
-				Derechos Reservados &copy; 2022
+				all rights reserved &copy; 2022
 			</span>
 		</div>
 	</footer>
+	<script src="./traduction.js"></script>
 </body>
 </html>
