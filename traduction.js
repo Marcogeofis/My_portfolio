@@ -1,5 +1,5 @@
-const botonEsp= document.querySelector('button');
-botonEsp.addEventListener('click', español);
+const leng= document.querySelector('.lenguage');
+leng.addEventListener('click', español);
 
 function español(){
     location.href='./public/Español/index.html';

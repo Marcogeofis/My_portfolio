@@ -5,72 +5,87 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" id="icono"href="./imagenes/logo/Ton.png">
 	<link rel="stylesheet" href="./CSS/style.css">	
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Josefin+Slab:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./CSS/tablet/tablet.css" media="(min-width: 930px)">
-	<title>Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./CSS/tablet/tablet.css" media="(min-width: 768px)">
+	<link rel="stylesheet" href="./CSS/Monitor/monitor.css" media="(min-width: 1200px)">
+	<title>Marco Antonio</title>
 </head>
 <body>
-	<header>
+	<header class="header__biography">
 		<nav class="container-menu">
-			<img class="logo_marco" src="../imagenes/logo/logoMarc.svg" alt="logo de mi nombre">
-			<a href="../index.html" class="link-bio">Home</a>
+			<div class="container__search">
+				<figure> 
+					<img class="logo_marco" src="../imagenes/logo/Ton.png" alt="logo_nombre"> 
+				</figure>
+				<div class="container--links">
+					<a href="../index.html" class="links">Home</a>
+				</div>
+			</div>
 		</nav>
 	</header>	
     <main class="Biography">
-		<h2>Biography</h2>
-        <section class="container-Biography">
-            <figure class="container-photo">
-                <img src="../imagenes/assets/myphoto.jpg" alt="Photo personal">
-            </figure>
-            <aside class="container-Biography--preferences">
+		<div class="subtitle--about_me">
+			<h2>About me</h2>
+		</div>
+		<section class="container-Biography">
+            <div class="container-Biography--preferences">
                 <span class="My-name">Marco Antonio Rivera Cortés</span>
-                <p>I'm from México.</p>
-                <p>I studied engineering in geophysics</p>
-                <p>Developer Front-end.</p>
-				<p>I like to practice boxing.</p>
-				<p>I love the physics.</p>
-				<p>I'm fascinated with programming.</p>
-				<p>I like to teach programming.</p>
-            </aside>
+                <p>I'm from Mexico</p>
+                <p>Developer Front-end</p>
+            </div> 
             <section class="container-history">
-                <span class="history-subtitle">About Me</span>
-                <p>
-					I studied engineering in geophysics and it gave me the satisfaction to understand the processes that the earth happens. 
+                <span class="history-subtitle">Skillset</span>
+                <p class="skillset">
+					Structure implementation
 				</p>
-				<p>
-					During the time I was studying my career, I returned to use a programming language to do some calculations like seismic waves speed, holes records, climatology and meteorology data, electrics’ methods, gravimetrics data, cleaning data, analyzing and interpreting data.
+				<p class="skillset">
+					Design
 				</p>
-				<p>
-					Fortran, Linux and gnuPlot were the better tools by our goals.
+				<p class="skillset">
+					Behaviour
 				</p>
-				<p>
-					My job experience in geophysics, I had the opportunity to be in CGG as an intern in June 2017, where I worked with them for 8 months. This was fascinating because in my opinion CGG was better in its processing seismic data. As we know that the energy crisis affects the world, CGG decided to stop the services in Mexico.
+				<p class="skillset">
+					Semantic content
 				</p>
-				<p>
-					CGG taught me the importance of working in a team, sharing all the knowledge about geosciences that represents the philosophy of passion and mission. I did marine seismic processing data, interpretation of horizons and interpretation of salt, etc.
+				<p class="skillset">
+					Response capacity + performance
 				</p>
-				<p>
-					I participated in two projects, one of them was in CENAPRED (Centro Nacional de Prevención de Desastres) in september 2015 to december 2015. I did seismic processing and filters about Mexico city data among other activities.
-				</p>				
-				<p>
-					The second project was an electrical survey to explore water on Ixmiquilpan Hidalgo, it was realized by IPN (Instituto Politécnico Nacional) in august 2015. We induced electrical energy to measure underground  resistivity to determine what a kind of rock we found and whether it  contains water or not.
+				<p class="skillset">
+					Responsive design
 				</p>
-				<p>
-					I did a course about synthetic model AVO’s method using the programming language Fortran and gnuPlot.
+				<p class="skillset">
+					Web applications 
 				</p>
-				<p>
-					My last job was in the company Nielsen in march-2021 to march-2022. Insight Nielsen I did other things totally diferente that I did as an engineer of geophysics but I used my knowledge of analyzing data. As a data analyst I did filters, dynamics tables, data crossing, verifying barcodes and its descriptions of the products. classifying all the products with Nielsen’s codes, etc. I learned another way to see how the base data works evenly it gives a new reason to learn data science.
+				<p class="skillset">
+					API consumption 
 				</p>
-				<span class="history-subtitle--conclusiones">Conclusions</span>
-				<p>
-					Everything that I have learned since my university education, professional form and as a teacher, made me notice that I love to teach and share knowledge. It’s a great pleasure to feel it, but no stop learning is the principal motivation to follow with the sciences, programming and teaching.
-				</p>
-				<p>
-					For that reason I decided to upgrade with some language programming courses to have more tools and I don’t stop my growth.
-				</p> 
             </section>
-        </section>
+			<section class="container-experience">
+                <span class="experience-subtitle">Experience</span>
+                <p class="experience">
+					PSG women's team
+				</p>
+				<p class="experience">
+					Cinema vs Streaming
+				</p>
+				<p class="experience">
+					Sugar level
+				</p>
+            </section>
+			<section class="container-education">
+                <span class="education-subtitle">Education</span>
+                <p class="education">
+					Engineering Geophysical
+				</p>
+            </section>
+			<section class="container-photo">
+				<figure>
+					<img src="../imagenes/assets/foto.jpg" alt="personal-photo">
+				</figure>
+			</section>
+        </section> 
     </main>
 	<section class="container-programming">
 		<div class="container-languages">

@@ -1,6 +1,6 @@
 
-const botonIng= document.querySelector('button');
-botonIng.addEventListener('click', english);
+const leng = document.querySelector('.lenguage');
+leng.addEventListener('click', english);
 
 function english(){
     location.href='../../index.html';

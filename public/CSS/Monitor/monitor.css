@@ -1,0 +1,76 @@
+:root{
+    --azul-obscuro: #141E27;
+    --verde: #43c432;
+    --gradiente-verde: linear-gradient(to bottom right, #43c432, rgb(240, 248, 255, 0.2));
+    --verde-rgba:rgba(67, 196, 50, 0.4);
+}
+header .container-menu .container__search{
+    width: 1000px;
+    height: 60px;
+}
+@keyframes image--avatar {
+    0%{
+        opacity: 0;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-300px);
+    }
+    
+}
+@keyframes animation-name {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(350px);
+    }
+}
+#my_profile{
+    position: relative;
+    left:350px;
+}
+@keyframes animation--profile {
+    0%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+#country{
+    position: relative;
+    left:350px;
+}
+@keyframes animation--country {
+    0%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.Biography{
+    height:1100px ;
+}
+.Biography .container-Biography{
+    max-height: 800px;
+}
+.container-history{
+    margin-left: 250px;
+}
+.container-experience{
+    margin-left: 250px;
+}
+.container-education{
+    margin-left: 250px;
+}
+.container-photo img{
+    position: absolute;
+    left: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}

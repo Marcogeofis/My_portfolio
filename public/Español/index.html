@@ -5,81 +5,102 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" id="icono"href="./imagenes/logo/Ton.png">
 	<link rel="stylesheet" href="../CSS/style.css">	
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Josefin+Slab:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="../CSS/tablet/tablet.css" media="(min-width: 930px)">
-	<title>Portafolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../CSS/tablet/tablet.css" media="(min-width: 768px)">
+	<link rel="stylesheet" href="../CSS/Monitor/monitor.css" media="(min-width: 1200px)">
+	<title>Marco Antonio</title>
 </head>
 <body>
 	<header>
 		<nav class="container-menu">
-			<img class="logo_marco" src="../../imagenes/logo/logoMarc.svg" alt="logo de mi nombre">
-			<a href="../../public/Español/biografia.html" class="link-bio">Biografía</a>
-			<div class="Idiome">
-				<button>Idiom English</button>
+			<div class="container__search">
+				<figure> 
+					<img class="logo_marco" src="../../imagenes/logo/Ton.png" alt="logo_nombre"> 
+				</figure>
+				<div class="container--links">
+					<a href="../Español/biografia.html" class="links">Sobre</a>
+					<a href="#Projects" class="links" >Proyectos</a>
+					<div class="lenguage">
+						Ing | Esp
+					</div>
+				</div>
 			</div>
 		</nav>
 	</header>	
 	<section class="container_designer">
-		<h2 class="titulo_designer">
-			<span id="greting">Hola!.</span>
-			<span id="my_name">Soy Marco</span>
-		</h2>
-		<h1 id="my_profile">Desarrollador Front-end</h1>
+		<div class="container--titulo_designer">
+			<figure> 
+				<img class="image-avatar" src="../../imagenes/assets/Avatar-Maker.png" alt="Avatar"> 
+			</figure>
+			<div class="titulo_designer">
+				<span id="my_name">Marco Rivera</span>
+				<h1 id="my_profile">Desarrollador Front-end</h1>
+				<span id="country">Radico en la ciudad de México.</span>
+			</div>
+		</div>
 	</section>
 	<section class="section_1">
 		<div class="container_biography">
 			<div class="biography">  
-				<p>Soy desarrollador front-end y me gusta diseñar y construir interfaces para usuarios. Es sorprendente como ha cambiado la forma de compartir información, vender ya sea un servicio o un producto, Me encanta crear una API para todo público que quiere hacer proyectos que aporten una solución a un problema </p>
-
-				<p>He realizado algunos proyectos personales, donde implemento las herramientas para el desarrollo web, me gustan los retos donde me ponen aprueba todo lo que he adquirido con un código simple y sencillo con las mejores prácticas.</p>
+				<p class="container__text1">Soy desarrollador front-end. Me gusta diseñar, construir interfaces para usuarios. Usar APIs para mostrar productos, datos o cualquier información relevante que pueda ser útil para nuestros usuarios.</p>
+				<p class="container__text2">En mis proyectos personales, he puesto en práctica las herramientas que he aprendido para la creación de páginas web o web apps.</p>
+				<p class="container__text2">Me gustan los retos donde ponen aprueba mis habilidades, conocimientos, apoyando me con los diseños UX + UI en cada paso durante el proyecto sin olvidar un código simple y sencillo con las mejores prácticas.</p>
 			</div>
 		</div>
 	</section>
 	<section class="conector">
 		<div class="conector_proyectos">
-			<span class="title-pro1"> Proyectos </span>
+			<h3 id="Projects"class="title-pro1"> Proyectos </h3>
 		</div>
 		<div class="container-proyects">
 			<div class="container-pro">
-				<a href="https://marcogeofis.github.io/PSG_women-s_cards-/" target="_blank">
-					<figcaption>
-						<img class="img_proyects" src="../../imagenes/proyecto_PSG/TeamPSGW.png" alt="link página PSGW">
-					</figcaption>		
-				</a>
+				<figure>
+					<div class="screen__cellphone">
+						<a href="https://marcogeofis.github.io/PSG-Women/" target="_blank">
+							<img class="rote-psg" src="../../imagenes/proyecto_PSG/responsive-PSG.png" alt="responsive-image">
+						</a>
+					</div>
+					<a href="https://marcogeofis.github.io/PSG-Women/" target="_blank">
+						<img class="img_proyects" src="../../imagenes/proyecto_PSG/psg_womens_team.png" alt="link página PSGW">
+					</a>
+					<div class="introduction">Esta es una simple interface que muestra a las jugadoras de PSG.</div>
+				</figure>
 				<div class="description">
-					<h3>Introducción</h3>
-					<p>
-						En este proyecto quise hacer tarjetas de jugadores del equipo de Paris Saint Germmain pero cuando mire su página oficial, note que todos los jugadores tienen registros que explican los minutos que juegan, si han anotado goles etc. Hice lo mismo con las mujeres que juegan con el PSG y no tienen ningún registro de minutos, si tienen goles etc. Por esa razón decidí hacer una página para ellas y cuando encuentre información de ellas la escribiré.
-					</p>
+					<h3>Equipo femenil PSG</h3>
 				</div>
 			</div>
 			<div class="container-pro">
-				<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
-					<figcaption>
-						<img class="img_proyects" src="../../imagenes/pelicostos/pelivsstreaming.png" alt="link peliculasVSstreaming">
-					</figcaption>		
-				</a>
+				<figure>
+					<div class="screen__cellphone">
+						<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
+							<img class="rote-psg" src="../../imagenes/pelicostos/cin-vs-stre.png" alt="responsive-image">
+						</a>
+					</div>
+					<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
+						<img class="img_proyects" src="../../imagenes/pelicostos/cinema_vs_streaming.png" alt="link peliculasVSstreaming">
+					</a>
+					<div class="introduction">Esta aplicación hace una simple comparación de que es más barato ir al cine vs streaming.</div>
+				</figure>
 				<div class="description">
-					<h3>Introducción</h3>
-					<p>
-						Esta fue mi primera aplicación. En el curso de Javascript el profesor dejó un reto que consistía en que es más económico ir al cine o ver una plataforma de streaming.   
-					</p>
+					<h3>Cine vs Streaming</h3>
 				</div>
 			</div>
 			<div class="container-pro">
-				<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
-					<figcaption>
-						<img class="img_proyects" src="../../imagenes/glucometro/glucomatro.png" alt="link de la página glucometro">
-					</figcaption>		
-				</a>
+				<figure>
+					<div class="screen__cellphone">
+						<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
+							<img class="rote-psg" src="../../imagenes/glucometro/gluco.png" alt="responsive-image">
+						</a>
+					</div>
+					<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
+						<img class="img_proyects" src="../../imagenes/glucometro/Glucometer.png" alt="link de la página glucometro">	
+					</a>
+					<div class="introduction">El objetivo de este proyecto es construir una app que te permita registrar tus niveles de glucosa<br> y el nivel de la presión arterial. <br>Despues con estos datos podras ver el comportamiento con graficas de tus datos.</div>
+				</figure>
 				<div class="description">
-					<h3>Introducción</h3>
-					<p>
-						Esta app consiste en que puedes registrar tu glucosa y presión arterial. ¿Por qué decidí hacer esta app? Por qué mi mamá es diabética y ella registra su glucosa en un cuaderno
-						y ella quiere conocer cuando ella come un dulce if su glucosa crece más del límite o está bien. Por lo tanto esta app muestra una gráfica que mi mamá puede ver cuando ella come correctamente o se alimenta mal.
-					</p>
-					<p>Nota: Estoy trabajando con el back-end para esta app por lo tanto no funciona si llenas campos, Pero si puedes visitarla.</p>
+					<h3>Nivel de glucosa</h3>
 				</div>
 			</div>
 		</div>

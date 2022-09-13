@@ -5,80 +5,102 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" id="icono"href="./imagenes/logo/Ton.png">
 	<link rel="stylesheet" href="./public/CSS/style.css">	
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Josefin+Slab:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./public/CSS/tablet/tablet.css" media="(min-width: 930px)">
-	<title>Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./public/CSS/tablet/tablet.css" media="(min-width: 768px)">
+	<link rel="stylesheet" href="./public/CSS/Monitor/monitor.css" media="(min-width: 1200px)">
+	<title>Marco Antonio</title>
 </head>
 <body>
 	<header>
 		<nav class="container-menu">
-			<img class="logo_marco" src="./imagenes/logo/logoMarc.svg" alt="logo de mi nombre">
-			<a href="./public/biography.html" class="link-bio">Biography</a>
-			<div class="Idiome">
-				<button>Idioma Español</button>
+			<div class="container__search">
+				<figure> 
+					<img class="logo_marco" src="./imagenes/logo/Ton.png" alt="logo_nombre"> 
+				</figure>
+				<div class="container--links">
+					<a href="./public/biography.html" class="links">About</a>
+					<a href="#Projects" class="links" >Projects</a>
+					<div class="lenguage">
+						Ing | Esp
+					</div>
+				</div>
 			</div>
 		</nav>
 	</header>	
 	<section class="container_designer">
-		<h2 class="titulo_designer">
-			<span id="greting">Hello.</span>
-			<span id="my_name">I am Marco</span>
-		</h2>
-		<h1 id="my_profile">Developer Front-end</h1>
+		<div class="container--titulo_designer">
+			<figure> 
+				<img class="image-avatar" src="./imagenes/assets/Avatar-Maker.png" alt="Avatar"> 
+			</figure>
+			<div class="titulo_designer">
+				<span id="my_name">Marco Rivera</span>
+				<h1 id="my_profile">Developer Front-end</h1>
+				<span id="country">based in Mexico city.</span>
+			</div>
+		</div>
 	</section>
 	<section class="section_1">
 		<div class="container_biography">
 			<div class="biography">  
-				<p>I'm a developer Front-end and I like to design & build user interfaces. It's fantastic how everything has changed the way to share the information, even selling a service or a product. I love to create an API or Apps to all peaple that want to do proyects giving solution a problem</p> 
-				 
-				<p>I developed some personal proyects, where I apply the tools of web developer. I like the challenge that puts me to aprove all exprience that I got with simple and straightforward code without let the best practice</p>
+				<p class="container__text1">I'm a developer Front-end and I like to design & build user interfaces. Using APIs to show products, data or any relevant information that can be useful to our users</p> 
+				<p class="container__text2">In my personal projects, I've put in practice all the tools that I've learned to make web pages and web apps.</p> 
+				<p class="container__text2">I like the challenge that puts to aprove my all skills, knowledge, supporting me  with UX + UI design in every step during the project without forgeting  a siple code and straightforward with the best practice.</p>
 			</div>
 		</div>
 	</section>
 	<section class="conector">
 		<div class="conector_proyectos">
-			<span class="title-pro1"> Projects </span>
+			<h3 id="Projects" class="title-pro1"> Projects </h3>
 		</div>
 		<div class="container-proyects">
 			<div class="container-pro">
-				<a href="https://marcogeofis.github.io/PSG_women-s_cards-/" target="_blank">
-					<figcaption>
-						<img class="img_proyects" src="./imagenes/proyecto_PSG/TeamPSGW.png" alt="link página PSGW">
-					</figcaption>		
-				</a>
+				<figure>
+					<div class="screen__cellphone">
+						<a href="https://marcogeofis.github.io/PSG-Women/" target="_blank">
+							<img class="rote-psg" src="./imagenes/proyecto_PSG/responsive-PSG.png" alt="responsive-image">
+						</a>
+					</div>
+					<a href="https://marcogeofis.github.io/PSG-Women/" target="_blank">
+						<img class="img_proyects" src="./imagenes/proyecto_PSG/psg_womens_team.png" alt="link página PSGW">
+					</a>
+					<div class="introduction">This is a simple interface that shows the PSG women's players.</div>
+				</figure>
 				<div class="description">
-					<h3>Introduction</h3>
-					<p>
-						In this project I wanted to do some soccer players cards of the team Saint Germmain Paris but when I looked at the official page, I noticed that the men players all have records that explain the minutes that they play, if they have records goals etc. I did the same thing with PSG’s women players, they don’t have any record, so this is not just for the women's team. For that reason I prefer to do this page for them and when I find information about them I will write it.
-					</p>
+					<h3>PSG women's team</h3>
+				</div>
+			</div>	
+			<div class="container-pro">
+				<figure>
+					<div class="screen__cellphone">
+						<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
+							<img class="rote-psg" src="./imagenes/pelicostos/cin-vs-stre.png" alt="responsive-image">
+						</a>
+					</div>
+					<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
+						<img class="img_proyects" src="./imagenes/pelicostos/cinema_vs_streaming.png" alt="link peliculasVSstreaming">
+					</a>
+					<div class="introduction">This page compare what is cheaper go to cinema vs streaming.</div>
+				</figure>
+				<div class="description">
+					<h3>Cinema vs Streaming</h3>
 				</div>
 			</div>
 			<div class="container-pro">
-				<a href="https://marcogeofis.github.io/miniAPI_Peliculas/" target="_blank">
-					<figcaption>
-						<img class="img_proyects" src="./imagenes/pelicostos/pelivsstreaming.png" alt="link peliculasVSstreaming">
-					</figcaption>		
-				</a>
+				<figure>
+					<div class="screen__cellphone">
+						<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
+							<img class="rote-psg" src="./imagenes/glucometro/gluco.png" alt="responsive-image">
+						</a>
+					</div>
+					<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
+						<img class="img_proyects" src="./imagenes/glucometro/Glucometer.png" alt="link de la página glucometro">	
+					</a>
+					<div class="introduction">The project's objective consist that you can record your sugar level <br> and pressure level. Then with these data <br> we can plot theme and seeing the behavior of data</div>
+				</figure>
 				<div class="description">
-					<h3>Introduction</h3>
-					<p>
-						This application was my first app. In my Javascript’s course the teacher left a challenge that consists of what is cheaper to pay for a cinema or streaming platform.				
-					</p>
-				</div>
-			</div>
-			<div class="container-pro">
-				<a href="https://marcogeofis.github.io/frontend-glucometro/" target="_blank">
-					<figcaption>
-						<img class="img_proyects" src="./imagenes/glucometro/glucometro.png" alt="link de la página glucometro">
-					</figcaption>		
-				</a>
-				<div class="description">
-					<h3>Introduction</h3>
-					<p>
-						This app consists that you can record glucose’s measure, blood pressure. Why did I decide to do this app? Because my mother is diabetic and she recorded those measures in a book and she wants to know when she eats something with a little candy, if it grows up more than the limit or is well. So this app shows a graphic that my mother looks at when she eats correctly or she has a bad diet. 
-					</p>
-					<p>Note: I’m working with the back-end to this app so it doesn't work if you try to fill the field. But you can visit it.</p>
+					<h3>Sugar level</h3>
 				</div>
 			</div>
 		</div>
